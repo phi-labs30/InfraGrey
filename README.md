@@ -1,13 +1,20 @@
 # InfraGrey
 ## Stateful Infrastructure for Computable Businesses
-#### Abstract
 
-InfraGrey is a system that implements SABER — the Stateful Architecture for Business Entity Representation — to make businesses computable, machine-legible, and interoperable across modern economic systems.
+## 1. SABER-Powered Auto KYB for Africa's Lending Revolution
+InfraGrey is the SABER-powered automated KYB & due diligence platform that turns businesses into verifiable, behavioral objects — enabling instant, accurate loan underwriting at scale.
+Built on SABER (a stateful architecture for computable economic entities):
+* **Minimal stable anchor** → Clean, persistent key from CAC/BN digits (no bloated ID aggregation)
+* **Rich, append-only behavioral memory** → Accumulates real economic actions: customer repeat rates, payment reliability, fulfillment patterns, transaction history (from OPay/Paga, CRM, reviews)
+* **Machine-native interfaces** → Real-time API queries for behavioral scores (e.g., churn risk, customer LTV, fulfillment reliability)
 
-InfraGrey treats a business not as a static legal record, but as a persistent, stateful computational object that can be reasoned about continuously by software, AI agents, financial institutions, and platforms.
+#### InfraGrey delivers:
 
-## 1. Problem Statement
-
+* **Instant KYB** — Auto-verifies business continuity and basic claims in seconds
+* **Behavioral Risk Scoring** — Dynamic scores based on customer interactions (e.g., "Repeat purchase rate 42% → Low churn risk")
+* **Underwriting Recommendations** — "Approve ₦5M at 12% — Strong customer loyalty & 97% payment reliability"
+* **Privacy-Safe & Compliant** — NDPR-aligned, selective disclosure via ZK proofs (prove aggregates without revealing PII)
+  
 ## 2. SABER Architecture Design Principle
 Let **_B_** be a business entity participating in economic activity across multiple systems **S<sub>1**, **S<sub>2**,…,**S<sub>n**.
 
@@ -37,6 +44,7 @@ UPoB formalizes this representation.
 SABER is composed of three orthogonal layers:
 
 ![Image](https://github.com/user-attachments/assets/e4de09ab-64e4-4fc1-b8f4-230a548e0b90)
+
 #### 2.1 Identity Layer
 The identity layer provides a stable reference ( **_I<sub>B_** ) for a business entity.
 
@@ -61,6 +69,7 @@ Examples of state components:
 * Counterparty diversity
 * Operational continuity
 * Customer behaviour
+
 #### 2.3 Machine Interface Layer
 A machine-native surface for querying and evaluating business state.
 

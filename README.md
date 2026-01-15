@@ -7,6 +7,8 @@ InfraGrey is a system that implements SABER — the Stateful Architecture for Bu
 InfraGrey treats a business not as a static legal record, but as a persistent, stateful computational object that can be reasoned about continuously by software, AI agents, financial institutions, and platforms.
 
 ## 1. Problem Statement
+
+## 2. SABER Architecture Design Principle
 Let **_B_** be a business entity participating in economic activity across multiple systems **S<sub>1**, **S<sub>2**,…,**S<sub>n**.
 
 In current infrastructure:
@@ -22,7 +24,6 @@ where (**_B<sub>t_**) is an incomplete, point-in-time representation.
 
 This approach fails under machine-mediated execution, where autonomy requires continuity, memory, and bounded behavior.
 
-## 2. Design Principle 
 **Computability requires state**.
 
 For a business to be computable, it must be representable as a stateful object:
@@ -33,11 +34,10 @@ where:
 * 𝞭 defines state transitions under new observations
 UPoB formalizes this representation.
 
-## 3. SABER Architecture
 SABER is composed of three orthogonal layers:
 
 ![Image](https://github.com/user-attachments/assets/e4de09ab-64e4-4fc1-b8f4-230a548e0b90)
-#### 3.1 Identity Layer
+#### 2.1 Identity Layer
 The identity layer provides a stable reference ( **_I<sub>B_** ) for a business entity.
 
 Properties:
@@ -47,7 +47,7 @@ Properties:
 * Cryptographically verifiable
 
 The identity layer does not encode behavior.
-#### 3.2 State Accumulator Layer
+#### 2.2 State Accumulator Layer
 The state accumulator layer maintains a persistent state vector 𝚺<sub>B</sub>(t) derived from observed economic activity.
 
 State is:
@@ -61,7 +61,7 @@ Examples of state components:
 * Counterparty diversity
 * Operational continuity
 * Customer behaviour
-#### 3.3 Machine Interface Layer
+#### 2.3 Machine Interface Layer
 A machine-native surface for querying and evaluating business state.
 
 Properties:
@@ -69,7 +69,7 @@ Properties:
 * Supports state queries, deltas, and historical comparisons
 * Enables AI agents and systems to reason about businesses.
 
-## 4. Business Leverage
+## 3. Business Leverage
 InfraGrey is not a product competing with banks or platforms — it is infrastructure they depend on.
 
 With InfraGrey:
@@ -81,20 +81,20 @@ With InfraGrey:
 
 This enables inclusion at scale while reducing operational cost.
 
-## 5. Current Status
+## 4. Current Status
 * SABER architecture defined
 * Behavioral state model under active development
 * First partner platform onboarding
 * Ecosystem partnership established with a financial institution
 
-## 6. Research Foundation
+## 5. Research Foundation
 InfraGrey is grounded in the paper:
 
 “SABER: A Stateful Architecture for Business Entity Representation in Autonomous Economic Systems.”
 
 The paper formalizes the architectural model, state semantics, and implications for autonomous markets.
 
-## 7. Why this matters
+## 6. Why this matters
 As intelligence moves from humans into systems, markets require entities that machines can reason about safely and continuously.
 
 InfraGrey provides the missing substrate — stateful business representation — that enables autonomy, coordination, and economic inclusion in the next phase of computation.

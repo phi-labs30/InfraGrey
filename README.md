@@ -3,7 +3,7 @@
 
 ## 1. SABER-Powered Auto KYB for Africa's Lending Revolution
 InfraGrey is the SABER-powered automated KYB & due diligence platform that turns businesses into verifiable, behavioral objects — enabling instant, accurate loan underwriting at scale.
-Built on SABER (a stateful architecture for computable economic entities).
+Built on SABER (a stateful architecture for business entity representation).
 #### InfraGrey delivers:
 
 * **Instant KYB** — Auto-verifies business continuity and basic claims in seconds
